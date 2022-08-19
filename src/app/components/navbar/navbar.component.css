@@ -1,0 +1,117 @@
+
+#navbar-main{
+  position: relative;
+  display: block;
+  padding: 0px;
+  min-width: 400px;
+}
+#navbarNav{
+  font-size: 10px;
+  top: auto;
+}
+#navbar-main-fluid{
+  background-color:#0f6fc5;
+}
+
+#login{
+color:white
+}
+.navbar-nav{  
+  text-align: center;
+}
+.nav-link{
+  font-weight: 800;
+  font-size: 2em;
+  margin: -1.5em;
+}
+#nombre{
+  width: 100px;
+  margin-left: 10px;
+}
+#logoAP{
+    width: 100px;
+    margin-left: auto;
+}
+.nav-item{
+  margin: auto;
+  padding: 20px;
+}
+
+.nav-item a span:first-child {
+    display: inline-block;
+    padding: 10px;
+    
+  }
+  .nav-item a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    
+  }
+   
+  .nav-item a span:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+    font-size: 2em;
+  }
+  .nav-item a span {
+    transition: transform 0.2s ease-out;
+    padding-bottom: 2px;
+  }
+   
+  .nav-item a:hover span:first-child {
+    transform: translateY(100%);
+  }
+   
+  .nav-item a:hover span:last-child {
+    transform: none;
+  }
+  .nav-item[data-animation="to-top"] a span:last-child {
+    transform: translateY(100%);
+  }
+  .nav-item[data-animation="to-top"] a:hover span:first-child {
+    transform: translateY(-100%);
+  }
+.nav-social--item{
+  position: absolute;
+  font-size: 2em;
+  left: 85%;
+  margin: 2px auto;
+}
+
+#one{
+  color:black;
+  font-size: 1.5em;
+}
+#icons a:hover{
+  color:white;
+}
+#two{
+  color:black;
+  font-size: 1.5em;
+}
+#tree{
+  color:black;
+  font-size: 1.5em;
+}
+#four{
+  color:black;
+  font-size: 1.5em;
+}
+[icono="ic"]{
+  padding: 8px;
+}
+/* #social-list{
+display: flex;
+position: relative;
+justify-content: center;
+margin-bottom: 20px;
+
+} */

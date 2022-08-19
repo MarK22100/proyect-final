@@ -1,0 +1,41 @@
+.content{
+    
+}
+.experience_content{
+    position: relative;
+    top:10px
+}
+.experience__content__left{
+    position: absolute;
+    display: block;
+    margin-top:10px;
+    margin-left: 10px;
+}
+.profile__experience_title{
+ 
+}
+.profile__experience__text{
+
+}
+.experience_data{
+    position: relative;
+}
+.experience__content__right{
+    position: relative;
+}
+.experience__item{
+    position: absolute;
+    font-size: 2em;
+    left: 85%;
+    padding-left: 10px;
+}
+.experience__items{
+margin: auto;
+
+}
+.experience__items span{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
