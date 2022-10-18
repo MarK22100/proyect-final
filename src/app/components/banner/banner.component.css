@@ -42,65 +42,67 @@
   }  */
   .banner{
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    height: 70vh;
+    justify-content: center;
+    
   }
   .banner__background{
- 
       background-color: #8e8e8e;
       background-image: url(../../../assets/wallpaperbetter.com_1920x1080.png);
       background-attachment: fixed;
       background-size: cover;
       background-position: center;
-      height: 100%;
+      height: 100vh;
       width: 100%;
       position: absolute;
       z-index: -1;
       filter: brightness(.4);
     }
-  .banner__inicio{
+   .banner__inicio{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin: 0px auto;
+    
   }
-
-  
   .titles__container{
-    min-width: 300px;
+    display: flex;
+    min-width: 280px;
     flex:1;
+    flex-wrap: wrap;
+    flex-direction: column;
     text-align: center;
-    padding: 20px;
-    margin-right:0px ;
-
+    justify-content: space-evenly;
+    line-height: 40px;
+    
+  } 
+  .title__inicio{
+      padding: 10px;
+      
   }
   .title__inicio--{
-    font-size: 60px;
+      font-size: 60px;
       text-shadow: 1px 1px rgb(255, 255, 255);
       color: #3367d6;
   }
-
   .profile_image{
     flex: 1;
+    min-width: 280px;
     display: flex;
-    min-width: 400px;
     margin: 0px auto;
     text-align: center;
   }
   .profile_image_container{
-    padding: 20px;
-    margin: auto;
+    padding: 10px;
   }
   .profile_image_container div{
     background-color: #fff;
     border-radius: 50%;
     text-align: center;
-    padding: 20px;
   }
   .profile_image img{
-    width: 80%;
-    margin: auto;
+    width: 70%;
   }
 .frist,
 .second{
